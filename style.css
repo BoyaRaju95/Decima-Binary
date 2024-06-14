@@ -1,0 +1,62 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgba(11, 11, 10, 0.3);
+}
+
+
+
+
+section {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+
+
+
+.decimalDiv {
+    border: 2px solid rgba(191, 17, 17, 0.888);
+    box-shadow: 0px 0px 20px 0px rgba(207, 7, 218, 0.7);
+    border-radius: 5px;
+    width: 20%;
+    height: 300px;
+    text-align: center;
+    padding-top: 100px;
+    background-color: aquamarine;
+
+}
+
+input {
+    width: 40%;
+    height: 30px;
+    border-radius: 5px;
+    border-color: red;
+    outline: none;
+    padding-left: 20px;
+    font-size: 18px;
+
+}
+
+
+.butStyle {
+    height: 35px;
+    border-radius: 5px;
+    border-color: rgb(223, 59, 9);
+    position: relative;
+    bottom: 2px;
+    font-size: 17px;
+}
+
+.changeColor {
+    color: rgba(31, 7, 206, 0.801);
+}
+
+.headChange {
+    color: #e606b1;
+}
